@@ -1,0 +1,90 @@
+body {
+	font-family: 'Oxygen', sans-serif;
+	color: #000000;
+}
+
+/* Header styles */
+#nav-header {
+	background-color: #848a86;
+	border-radius:0;
+	border:0;
+}
+.navbar-brand h1 { /* Brand Name */
+    color: #000000;
+    margin-top: 0;
+    font-weight: bold;
+}
+.navbar-header {
+	padding-bottom: 12px;
+}
+.navbar-header span {
+	border:1px solid #000000;
+}
+.navbar-header button.navbar-toggle {
+	border:1px solid #000000;
+	margin-top: 20px;
+}
+#collapsible-nav a {
+	text-align: center;
+}
+#collapsible-nav a:hover {
+	background-color: #ffffff;
+}
+#collapsible-nav a span {
+	font-size: 1.2em;
+	color: #000000;
+}
+/*Main Body styles */
+#page-heading {
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+.menu-item-description {
+	background-color: #848a86;
+	padding: 15px;
+	height: 1400px;
+	margin-bottom: 40px;
+}
+.menu-item-description .nav-tool:hover {
+	color: #1d612f
+}
+.nav-tool {
+	color: #ffffff;
+	text-align: right;
+}
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+	.menu-item-description {
+		height: 1100px;
+	}
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+	#collapsible-nav {
+	background-color: #82775c;
+    }
+    .menu-item-description {
+		height: 650px;
+	}
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {}
+
+
+
+
+
+
